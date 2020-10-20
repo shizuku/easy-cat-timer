@@ -52,7 +52,7 @@
               "entryPoints": [
                 {
                   "html": "./src/renderer/index.html",
-                  "js": "./src/renderer/index.ts",
+                  "js": "./src/renderer/index.tsx",
                   "name": "main_window"
                 }
               ]
@@ -82,7 +82,9 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "electron-squirrel-startup": "^1.0.0",
+    "i18next": "^19.8.2",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "react-i18next": "^11.7.3"
   }
 }
